@@ -73,7 +73,7 @@ const AddTransactionView= (props)=>{
   )
 }
 const Overview = (props) => {
-  const [isAddTxnVisible, toggleAddTxn] = useState(true)
+  const [isAddTxnVisible, toggleAddTxn] = useState(false)
   return (
     <Container>
       <BalanceBox>
