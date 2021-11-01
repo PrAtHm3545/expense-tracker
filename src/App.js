@@ -1,11 +1,16 @@
 import './App.css';
+import styled, { StyledComponent } from 'styled-components';
+
+const Container =styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Container>
+      Hellow World..!
+    </Container>
   );
 }
-
 export default App;
